@@ -1,4 +1,4 @@
-# necronizer's cloud self hosted cluster implementation
+# YASM Media self hosted cluster implementation
 
 This repository mainly handles scripts for automation of setting up and destroying kubernetes cluster using k3s for usage with personal projects. YAML Configuration and scripts related to bringing up and down the cluster lives in this repository.
 
@@ -6,7 +6,7 @@ This repository mainly handles scripts for automation of setting up and destroyi
 
 The following is required to provision a kubernetes cluster using this repository:
 
-1. [Docker](https://www.docker.com/) - k3s runs kubernetes nodes in Docker hence Docker is required to be installed on the host machine to run kubernetes successfully.
+1. [Podman](https://podman.io/) - k3d runs kubernetes nodes in Podman/Docker hence Podman/Docker is required to be installed on the host machine to run kubernetes successfully.
 2. [k3d](https://k3d.io/stable/) - Lightweight wrapper around k3s running on Docker, can be used to bring up single-node and multi-node clusters easily. 
 
 # Usage Instructions:
